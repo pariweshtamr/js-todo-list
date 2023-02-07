@@ -5,9 +5,10 @@
 }
 
 body {
-  background: linear-gradient(120deg, #c9ae56, #ff5132);
+  background: linear-gradient(120deg, #c9ae56, #ff5132) no-repeat;
+  min-height: 100vh;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 header {
   font-size: 1.5rem;
@@ -109,7 +110,7 @@ select {
   border-radius: 5px;
 }
 .select::after {
-  content: '\25BC';
+  content: "\25BC";
   position: absolute;
   background: #ff6f47;
   top: 0;
